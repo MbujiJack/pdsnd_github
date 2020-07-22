@@ -15,7 +15,7 @@ LINE_LEN = 90
 # print long string with repeating char, used to separate sections of output
 print_line = lambda char: print(char[0] * LINE_LEN)
 
-def print_processing_time(start_time):
+def printcessing_time(start_time):
     time_str = "[... %s seconds]" % round((time.time() - start_time), 3)
     print(time_str.rjust(LINE_LEN))
     print_line('-')
