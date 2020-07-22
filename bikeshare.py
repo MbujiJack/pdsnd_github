@@ -32,7 +32,7 @@ def get_filter_city():
     cities_list = []
     num_cities = 0
 
-    for a_city in CITY_DATA:
+    for i,j, a_city in CITY_DATA:
         cities_list.append(a_city)
         num_cities += 1
         print('        {0:20}. {1}'.format(num_cities, a_city.title()))
